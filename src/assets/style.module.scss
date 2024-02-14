@@ -1,0 +1,25 @@
+.Toptext {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.Button {
+    margin: 10px;
+    background-color: black;
+    width: 10%;
+    height: 45px;
+    color: white;
+    font-size: 15x;
+    font-weight: 500 !important;
+    border-radius: 10px;
+    transition: all 0.5s;
+
+    &:hover {
+        background-color: white;
+        color: black;
+        width: 11%;
+        font-size: 16x;
+
+        height: 50px;
+    }
+}
